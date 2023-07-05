@@ -1,0 +1,17 @@
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\bin\Debug\net7.0\RabbitMQ.Producer.exe
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\bin\Debug\net7.0\RabbitMQ.Producer.deps.json
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\bin\Debug\net7.0\RabbitMQ.Producer.runtimeconfig.json
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\bin\Debug\net7.0\RabbitMQ.Producer.dll
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\bin\Debug\net7.0\RabbitMQ.Producer.pdb
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\obj\Debug\net7.0\RabbitMQ.Producer.csproj.AssemblyReference.cache
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\obj\Debug\net7.0\RabbitMQ.Producer.GeneratedMSBuildEditorConfig.editorconfig
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\obj\Debug\net7.0\RabbitMQ.Producer.AssemblyInfoInputs.cache
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\obj\Debug\net7.0\RabbitMQ.Producer.AssemblyInfo.cs
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\obj\Debug\net7.0\RabbitMQ.Producer.csproj.CoreCompileInputs.cache
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\obj\Debug\net7.0\RabbitMQ.Producer.csproj.CopyComplete
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\obj\Debug\net7.0\RabbitMQ.Producer.dll
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\obj\Debug\net7.0\refint\RabbitMQ.Producer.dll
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\obj\Debug\net7.0\RabbitMQ.Producer.pdb
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\obj\Debug\net7.0\RabbitMQ.Producer.genruntimeconfig.cache
+C:\demo\RabbitMQ.Producer\RabbitMQ.Producer\obj\Debug\net7.0\ref\RabbitMQ.Producer.dll
