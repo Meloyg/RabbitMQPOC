@@ -4,11 +4,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Producer", "Rabbit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Consumer", "RabbitMQ.Consumer\RabbitMQ.Consumer.csproj", "{93A2C71A-6744-4BCE-918A-42E8A8AF3BF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitPOC", "MassTransitPOC\MassTransitPOC.csproj", "{9D5EFDB6-5425-4B8A-9643-248C5213DF56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.MassTransit", "RabbitMQ.MassTransit\RabbitMQ.MassTransit.csproj", "{9D5EFDB6-5425-4B8A-9643-248C5213DF56}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{0954E819-0E6D-4F91-A5D5-7173F8820FED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayRunService", "PayRunService\PayRunService.csproj", "{1D91682C-5448-49E7-A061-92E399833CD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayRun", "PayRun\PayRun.csproj", "{1D91682C-5448-49E7-A061-92E399833CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{CF24838B-BD49-4A23-B1C5-8EEC7605A73F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +38,9 @@ Global
 		{1D91682C-5448-49E7-A061-92E399833CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D91682C-5448-49E7-A061-92E399833CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D91682C-5448-49E7-A061-92E399833CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF24838B-BD49-4A23-B1C5-8EEC7605A73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF24838B-BD49-4A23-B1C5-8EEC7605A73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF24838B-BD49-4A23-B1C5-8EEC7605A73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF24838B-BD49-4A23-B1C5-8EEC7605A73F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

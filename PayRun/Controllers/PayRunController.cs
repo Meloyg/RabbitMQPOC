@@ -33,8 +33,8 @@ namespace PayRunService.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] PayRunClosedEvent payRunClosedEvent)
         {
-            await _publishEndpoint.Publish<PayRunClosedEvent>(payRunClosedEvent);
-            
+            await _publishEndpoint.Publish(payRunClosedEvent);
+
             return Ok();
         }
 
