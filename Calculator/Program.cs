@@ -1,11 +1,30 @@
+using Calculator.Model;
+using MassTransit;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddMassTransit(config =>
+{
+    config.AddConsumer<PayRunConsumer>();
+
+    config.UsingRabbitMq(((context, configurator) =>
+    {
+        configurator.Host("amqp://guest:guest@localhost:5672");
+        configurator.ReceiveEndpoint("payrun-queue",
+            endpoint => { endpoint.ConfigureConsumer<PayRunConsumer>(context); });
+    }));
+});
+
+builder.Services.Configure<MassTransitHostOptions>(options =>
+{
+    options.WaitUntilStarted = true;
+    options.StartTimeout = TimeSpan.FromSeconds(30);
+    options.StopTimeout = TimeSpan.FromSeconds(1);
+});
 
 var app = builder.Build();
 
