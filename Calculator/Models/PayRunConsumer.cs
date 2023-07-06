@@ -1,7 +1,7 @@
 ﻿using MassTransit;
 using Model;
 
-namespace Calculator.Model;
+namespace Calculator.Models;
 
 public class PayRunConsumer : IConsumer<PayRunClosedEvent>
 {
