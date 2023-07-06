@@ -1,6 +1,4 @@
-﻿using System.Text;
-using System.Text.Json;
-using RabbitMQ.Client;
+﻿using RabbitMQ.Client;
 using RabbitMQ.Producer;
 
 var factory = new ConnectionFactory
@@ -11,4 +9,4 @@ var factory = new ConnectionFactory
 using var connection = factory.CreateConnection();
 using var channel = connection.CreateModel();
 
-QueueProducer.Publish(channel);
+DirectExchangePublisher.Publish(channel);
